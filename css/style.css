@@ -14,7 +14,23 @@ header {
     margin: 40px auto;
 }
 
-@media (max-width: 629px) {
-    
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.cards {
+    height: 146px;
+    width: 117px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background: #A7E9AF;
+}
+
+.frontParrot {
+    height: 100px;
+    width: 100px;
 }
